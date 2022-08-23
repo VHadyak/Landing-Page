@@ -40,3 +40,59 @@ body {
   flex-shrink: 0;
   gap: 25px;
 }
+
+/**************** HERO ********************/
+
+.hero-container {
+  background-color: #1F2937;
+  border: 1px solid orange;
+  height: 500px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left-hero {
+  border: 1px solid yellow;
+  width: 475px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.hero-secondary-text {
+  border: 1px solid lime;
+  width: 465px;
+  font-size: 18px;
+  color: #E5E7EB;
+  gap: 50px;
+}
+
+.sign-up-button {
+  font-size: 18px;
+  height: 33px;
+  width: 125px;
+  border-radius: 7px;
+  border: none;
+}
+
+.img-placeholder {
+  background-color: gray;
+  border: 1px solid blue;
+  width: 500px;
+  height: 230px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
