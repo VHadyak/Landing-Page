@@ -46,9 +46,9 @@ body {
 .hero-container {
   background-color: #1F2937;
   border: 1px solid orange;
-  height: 500px;
+  min-height: 500px;
   display: flex;
-  gap: 40px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -57,7 +57,7 @@ body {
 .left-hero {
   border: 1px solid yellow;
   width: 475px;
-  height: 220px;
+  height: 235px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -80,19 +80,67 @@ body {
 
 .sign-up-button {
   font-size: 18px;
-  height: 33px;
+  height: 37px;
   width: 125px;
   border-radius: 7px;
   border: none;
+  color: #F9FAF8;
+  background-color: #3882F6;
 }
 
 .img-placeholder {
   background-color: gray;
   border: 1px solid blue;
-  width: 500px;
-  height: 230px;
+  width: 510px;
+  height: 255px;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 5px;
+}
+
+/********************** CONTENT **********************/
+
+.information-container {
+  background-color: white;
+  border: 1px solid red;
+  height: 150px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+#information-header {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bold;
+}
+
+.content-container {
+  background-color: rgb(183, 182, 182);
+  min-height: 400px;    /*Increases the height of the container while resizing the page due to wrapping of items*/
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.border {
+  border: 4px solid #3882F6;
+  border-radius: 15px;
+  width: 175px;
+  height: 175px;
+}
+
+.text-one,
+.text-two,
+.text-three,
+.text-four {
+  font-size: 18px;
+  text-align: center;
+  width: 175px;
+  border: 1px solid green;
+  margin-top: 6px;
 }
