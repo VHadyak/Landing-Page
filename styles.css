@@ -232,3 +232,18 @@ body {
   color: #F9FAF8;
   background-color: #3882F6;
 }
+
+/****************** FOOTER ******************/
+
+.footer-container {
+  background-color: #1F2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  font-size: 18px;
+  color: #E5E7EB;
+}
