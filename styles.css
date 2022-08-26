@@ -22,17 +22,33 @@ body {
 .header-container {
   border: 1px solid red;
   background-color: #1F2937;
-  height: 50px;
+  height: 90px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.header-logo {
+  width: 100px;
+  height: auto;
 }
 
 .header-text {
   border: 1px solid green;
-  font-size: 24px;
-  color: #F9FAF8;
-  flex-shrink: 0;
+  font-family: Futura;
+  font-weight: bold;
+  font-size: 28px;  
+  color: rgb(251, 15, 15);
+}
+
+span.Bull {
+  color: rgb(0, 255, 0);
 }
 
 .right-links {
@@ -40,8 +56,13 @@ body {
   font-size: 18px;
   color: #E5E7EB;
   display: flex;
-  flex-shrink: 0;
-  gap: 25px;
+  gap: 105px;
+  margin-right: 100px;
+}
+
+a {
+  color: #E5E7EB;
+  text-decoration: none;
 }
 
 /**************** HERO ********************/
