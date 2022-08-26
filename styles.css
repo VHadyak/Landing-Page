@@ -21,7 +21,6 @@ body {
 
 .header-container {
   background-color: #1F2937;
-  border: 1px solid red; 
   height: 50px;
   display: flex;
   justify-content: space-around;
@@ -29,14 +28,12 @@ body {
 }
 
 .header-text {
-  border: 1px solid green;
   font-size: 24px;
   color: #F9FAF8;
   flex-shrink: 0;
 }
 
 .right-links {
-  border: 1px solid cyan;
   font-size: 18px;
   color: #E5E7EB;
   display: flex;
@@ -48,7 +45,6 @@ body {
 
 .hero-container {
   background-color: #1F2937;
-  border: 1px solid orange;
   min-height: 500px;
   display: flex;
   gap: 30px;
@@ -58,7 +54,6 @@ body {
 }
 
 .left-hero {
-  border: 1px solid yellow;
   width: 475px;
   height: 235px;
   display: flex;
@@ -74,7 +69,6 @@ body {
 }
 
 .hero-secondary-text {
-  border: 1px solid lime;
   width: 465px;
   font-size: 18px;
   color: #E5E7EB;
@@ -93,7 +87,6 @@ body {
 
 .img-placeholder {
   background-color: gray;
-  border: 1px solid blue;
   width: 510px;
   height: 255px;
   color: white;
@@ -107,7 +100,6 @@ body {
 
 .information-container {
   background-color: white;
-  border: 1px solid red;
   height: 140px;
   display: flex;
   justify-content: center; 
@@ -127,7 +119,7 @@ body {
   align-items: flex-start;
   gap: 60px;
   flex-wrap: wrap;
-  flex: 1 0 auto;
+  flex: 1 0 auto;  /*Makes sure footer always at the bottom for every browser*/
 }
 
 .border {
@@ -144,14 +136,12 @@ body {
   font-size: 18px;
   text-align: center;
   width: 175px;
-  border: 1px solid green;
   margin-top: 6px;
 } 
 
 /**************************** INSPIRING QUOTE SECTION ******************/
 
 .quote-author-container {
-  border: 2px solid orange;
   background-color: #E5E7EB;
   min-height: 450px;
   display: flex;
@@ -160,7 +150,6 @@ body {
 }
 
 .quote-container {
-  border: 1px solid purple;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -170,7 +159,6 @@ body {
 }
 
 #quote {
-  border: 1px solid black;
   width: 780px;
   font-size: 36px;
   font-weight: 250;
@@ -178,7 +166,6 @@ body {
 }
 
 .author-container {
-  border: 1px solid crimson;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -188,14 +175,13 @@ body {
   font-size: 24px;
   font-weight: 600;
   flex-shrink: 10;
-  border: 1px solid skyblue;
   margin-left: 470px;
 }
 
 /************************** CALL TO ACTION SECTION ******************/
 
 .sign-up-container {
-  background-color: #f4f6f7;
+  background-color: white;
   height: 370px;
   display: flex;
   justify-content: center;
@@ -216,7 +202,6 @@ body {
 }
 
 .sign-up-left {
-  border: 1px solid green;
   margin-left: 5px;
 }
 
@@ -258,3 +243,4 @@ body {
   color: #E5E7EB;
   flex-shrink: 0;
 }
+
