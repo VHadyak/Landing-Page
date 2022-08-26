@@ -20,6 +20,7 @@ body {
 /*************** HEADER *****************/
 
 .header-container {
+  border: 1px solid red;
   background-color: #1F2937;
   height: 50px;
   display: flex;
@@ -28,12 +29,14 @@ body {
 }
 
 .header-text {
+  border: 1px solid green;
   font-size: 24px;
   color: #F9FAF8;
   flex-shrink: 0;
 }
 
 .right-links {
+  border: 1px solid blue;
   font-size: 18px;
   color: #E5E7EB;
   display: flex;
@@ -44,6 +47,7 @@ body {
 /**************** HERO ********************/
 
 .hero-container {
+  border: 1px solid orange;
   background-color: #1F2937;
   min-height: 500px;
   display: flex;
@@ -54,6 +58,7 @@ body {
 }
 
 .left-hero {
+  border: 1px solid purple;
   width: 475px;
   height: 235px;
   display: flex;
@@ -99,6 +104,7 @@ body {
 /********************** CONTENT **********************/
 
 .information-container {
+  border: 1px solid red;
   background-color: white;
   height: 140px;
   display: flex;
@@ -113,6 +119,7 @@ body {
 }
 
 .content-container {
+  border: 2px solid slateblue;
   min-height: 375px;    /*Increases the height of the container while resizing the page due to wrapping of items*/
   display: flex;
   justify-content: center;
@@ -133,6 +140,7 @@ body {
 .text-two,
 .text-three,
 .text-four {
+  border: 1px solid crimson;
   font-size: 18px;
   text-align: center;
   width: 175px;
@@ -142,6 +150,7 @@ body {
 /**************************** INSPIRING QUOTE SECTION ******************/
 
 .quote-author-container {
+  border: 1px solid black;
   background-color: #E5E7EB;
   min-height: 450px;
   display: flex;
@@ -150,6 +159,7 @@ body {
 }
 
 .quote-container {
+  border: 2px solid navy;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -166,6 +176,7 @@ body {
 }
 
 .author-container {
+  border: 1px solid green;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,6 +192,7 @@ body {
 /************************** CALL TO ACTION SECTION ******************/
 
 .sign-up-container {
+  border: 2px solid indianred;
   background-color: white;
   height: 370px;
   display: flex;
@@ -202,6 +214,7 @@ body {
 }
 
 .sign-up-left {
+  border: 1px solid red;
   margin-left: 5px;
 }
 
@@ -239,6 +252,7 @@ body {
 }
 
 .footer {
+  border: 1px solid cyan;
   font-size: 18px;
   color: #E5E7EB;
   flex-shrink: 0;
