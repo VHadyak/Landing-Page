@@ -21,7 +21,7 @@ body {
 
 .header-container {
   border: 1px solid red;
-  background-color: #1F2937;
+  background-color: #36119d;
   height: 90px;
   display: flex;
   justify-content: space-between;
@@ -51,12 +51,15 @@ span.Bull {
   color: rgb(0, 255, 0);
 }
 
+span.Trade {
+  color: rgb(249, 27, 27);
+}
+
 .right-links {
   border: 1px solid blue;
   font-size: 18px;
-  color: #E5E7EB;
   display: flex;
-  gap: 105px;
+  gap: 80px;
   margin-right: 100px;
 }
 
@@ -69,7 +72,7 @@ a {
 
 .hero-container {
   border: 1px solid orange;
-  background-color: #1F2937;
+  background: linear-gradient(rgb(49, 49, 245),rgb(238, 167, 16)); /* Creates a gradient background between 2 chosen colors*/
   min-height: 500px;
   display: flex;
   gap: 30px;
@@ -81,7 +84,7 @@ a {
 .left-hero {
   border: 1px solid purple;
   width: 475px;
-  height: 235px;
+  height: 225px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -96,30 +99,30 @@ a {
 
 .hero-secondary-text {
   width: 465px;
-  font-size: 18px;
+  line-height: 26px; /* Adds spacing between lines with the text */
+  font-size: 20px;
   color: #E5E7EB;
   gap: 50px;
+  border: 1px solid red;
+  font-family: Arial;
 }
 
 .sign-up-button {
   font-size: 18px;
-  height: 37px;
+  height: 40px;
   width: 125px;
   border-radius: 7px;
   border: none;
   color: #F9FAF8;
-  background-color: #3882F6;
+  background-color: #5627d8;
 }
 
 .img-placeholder {
-  background-color: gray;
   width: 510px;
   height: 255px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 5px;  /* To stay in full display when minimizing the size of the page*/
+  border-radius: 20px;
+  border-style: unset;
 }
 
 /********************** CONTENT **********************/
