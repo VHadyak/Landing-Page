@@ -20,31 +20,59 @@ body {
 /*************** HEADER *****************/
 
 .header-container {
-  background-color: #1F2937;
-  height: 50px;
+  background: linear-gradient(to right, rgb(14, 14, 246),rgb(236, 163, 5));
+  height: 90px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
+.left-header {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.header-logo {
+  width: 100px;
+  height: auto;
+}
+
 .header-text {
-  font-size: 24px;
-  color: #F9FAF8;
-  flex-shrink: 0;
+  font-family: Futura;
+  font-weight: bold;
+  font-size: 28px;  
+  color: rgb(251, 15, 15);
+}
+
+span.Bull {
+  color: rgb(0, 255, 0);
+}
+
+span.Trade {
+  color: rgb(249, 27, 27);
 }
 
 .right-links {
-  font-size: 18px;
-  color: #E5E7EB;
+  font-size: 20px;
   display: flex;
-  flex-shrink: 0;
-  gap: 25px;
+  gap: 60px;
+  margin-right: 150px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+button:hover { /* Shows a background color of a button while hovering over it */
+  background-color: #6145af;
 }
 
 /**************** HERO ********************/
 
 .hero-container {
-  background-color: #1F2937;
+  background: linear-gradient(to right, rgb(14, 14, 246),rgb(236, 163, 5)); /* Creates a gradient background between 2 chosen colors */
   min-height: 500px;
   display: flex;
   gap: 30px;
@@ -55,7 +83,7 @@ body {
 
 .left-hero {
   width: 475px;
-  height: 235px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -70,40 +98,42 @@ body {
 
 .hero-secondary-text {
   width: 465px;
-  font-size: 18px;
+  line-height: 26px; /* Adds spacing between lines with the text */
+  font-size: 20px;
   color: #E5E7EB;
   gap: 50px;
+  font-family: Arial;
 }
 
 .sign-up-button {
   font-size: 18px;
-  height: 37px;
+  height: 40px;
   width: 125px;
   border-radius: 7px;
   border: none;
   color: #F9FAF8;
-  background-color: #3882F6;
+  background-color: #6739e6;
+  border: 1px solid rgb(9, 8, 8);
 }
 
 .img-placeholder {
-  background-color: gray;
   width: 510px;
   height: 255px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 5px;  /* To stay in full display when minimizing the size of the page*/
+  border-radius: 20px;
+  border-style: unset;
 }
 
 /********************** CONTENT **********************/
 
 .information-container {
-  background-color: white;
+  background: linear-gradient(to right, rgb(33, 223, 179),rgb(15, 100, 196));
   height: 140px;
   display: flex;
   justify-content: center; 
   align-items: center;
+  border-top: 2px solid rgb(27, 96, 96);
+  border-top-style: groove;
 }
 
 #information-header {
@@ -113,7 +143,8 @@ body {
 }
 
 .content-container {
-  min-height: 375px;    /*Increases the height of the container while resizing the page due to wrapping of items*/
+  background: linear-gradient(to right,  rgb(33, 223, 179),rgb(15, 100, 196));
+  min-height: 500px;    /*Increases the height of the container while resizing the page due to wrapping of items*/
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -122,31 +153,43 @@ body {
   flex: 1 0 auto;  /*Makes sure footer always at the bottom for every browser*/
 }
 
-.border {
-  border: 4px solid #3882F6;
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+  margin-bottom: 5px;
+}
+
+.image {
+  border: 4px solid #153364;
   border-radius: 15px;
-  width: 175px;
-  height: 175px;
+  width: 400px;
+  height: auto;
+  border-style: outset;
 }
 
 .text-one,
 .text-two,
 .text-three,
 .text-four {
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
-  width: 175px;
+  width: 400px;
   margin-top: 6px;
 } 
 
 /**************************** INSPIRING QUOTE SECTION ******************/
 
 .quote-author-container {
-  background-color: #E5E7EB;
-  min-height: 450px;
+  background: linear-gradient(to right, rgb(15, 100, 196), rgb(33, 223, 179));
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-top: 2px solid rgb(27, 96, 96);
+  border-top-style: groove;
+  border-bottom: 2px solid rgb(27, 96, 96);
+  border-bottom-style: groove;
 }
 
 .quote-container {
@@ -174,58 +217,53 @@ body {
 #author {
   font-size: 24px;
   font-weight: 600;
-  flex-shrink: 10;
-  margin-left: 470px;
+  margin-left: 280px;
 }
 
-/************************** CALL TO ACTION SECTION ******************/
+/************************** NEWSLETTER ******************/
 
 .sign-up-container {
-  background-color: white;
-  height: 370px;
+  background: linear-gradient(to right, rgb(14, 14, 246),rgb(236, 163, 5));
+  min-height: 370px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .sign-up-border {
-  background-color: #3882F6;
-  width: 1030px;
-  height: 160px;
+  background-color: #9d8eeb;
+  border: 2px solid black;
+  width: 1000px;
+  min-height: 160px;
   border-radius: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 150px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.sign-up-left {
-  margin-left: 5px;
+  gap: 80px;
 }
 
 .heading {
-  color: #F9FAF8;
+  color: black;
   font-size: 24px;
   margin-bottom: 3px;
 }
 
 .description-text {
-  color: #E5E7EB;
+  color: black;
   font-size: 18px;
+  width: 500px;
 }
 
 .button-right {
   font-size: 18px;
-  height: 37px;
+  height: 40px;
   width: 125px;
   border-radius: 7px;
-  border: 2px solid white;
+  border: 1px solid rgb(9, 8, 8);
   color: #F9FAF8;
-  background-color: #3882F6;
-  flex-shrink: 0;
-  margin-right: 5px;
+  background-color: #6739e6;
+  margin: 10px;
 }
 
 /****************** FOOTER ******************/
@@ -236,11 +274,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(to right, rgb(73, 23, 154), rgb(105, 105, 235));
+  border-top: 2px solid rgb(34, 47, 146);
+  border-top-style: groove;
 }
 
 .footer {
   font-size: 18px;
-  color: #E5E7EB;
+  color: black;
   flex-shrink: 0;
 }
 
