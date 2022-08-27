@@ -20,7 +20,7 @@ body {
 /*************** HEADER *****************/
 
 .header-container {
-  background: linear-gradient(to right, rgb(69, 3, 69), blue);
+  background: linear-gradient(to right, rgb(14, 14, 246),rgb(236, 163, 5));
   height: 90px;
   display: flex;
   justify-content: space-between;
@@ -54,21 +54,25 @@ span.Trade {
 }
 
 .right-links {
-  font-size: 18px;
+  font-size: 20px;
   display: flex;
-  gap: 80px;
+  gap: 60px;
   margin-right: 150px;
 }
 
 a {
-  color: #E5E7EB;
+  color: black;
   text-decoration: none;
+}
+
+button:hover { /* Shows a background color of a button while hovering over it */
+  background-color: #6145af;
 }
 
 /**************** HERO ********************/
 
 .hero-container {
-  background: linear-gradient(rgb(14, 14, 246),rgb(236, 163, 5)); /* Creates a gradient background between 2 chosen colors*/
+  background: linear-gradient(to right, rgb(14, 14, 246),rgb(236, 163, 5)); /* Creates a gradient background between 2 chosen colors */
   min-height: 500px;
   display: flex;
   gap: 30px;
@@ -108,7 +112,8 @@ a {
   border-radius: 7px;
   border: none;
   color: #F9FAF8;
-  background-color: #5627d8;
+  background-color: #6739e6;
+  border: 1px solid rgb(9, 8, 8);
 }
 
 .img-placeholder {
@@ -122,11 +127,13 @@ a {
 /********************** CONTENT **********************/
 
 .information-container {
-  background: linear-gradient(to right, yellow, rgb(236, 129, 129));
+  background: linear-gradient(to right, rgb(33, 223, 179),rgb(15, 100, 196));
   height: 140px;
   display: flex;
   justify-content: center; 
   align-items: center;
+  border-top: 2px solid rgb(27, 96, 96);
+  border-top-style: groove;
 }
 
 #information-header {
@@ -136,14 +143,21 @@ a {
 }
 
 .content-container {
-  background: linear-gradient(to right, yellow, rgb(236, 129, 129));
-  min-height: 450px;    /*Increases the height of the container while resizing the page due to wrapping of items*/
+  background: linear-gradient(to right,  rgb(33, 223, 179),rgb(15, 100, 196));
+  min-height: 500px;    /*Increases the height of the container while resizing the page due to wrapping of items*/
   display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 60px;
   flex-wrap: wrap;
   flex: 1 0 auto;  /*Makes sure footer always at the bottom for every browser*/
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+  margin-bottom: 5px;
 }
 
 .image {
@@ -158,7 +172,6 @@ a {
 .text-two,
 .text-three,
 .text-four {
-  border: 1px solid crimson;
   font-size: 20px;
   text-align: center;
   width: 400px;
@@ -168,16 +181,18 @@ a {
 /**************************** INSPIRING QUOTE SECTION ******************/
 
 .quote-author-container {
-  border: 1px solid black;
-  background-color: #E5E7EB;
-  min-height: 450px;
+  background: linear-gradient(to right, rgb(15, 100, 196), rgb(33, 223, 179));
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-top: 2px solid rgb(27, 96, 96);
+  border-top-style: groove;
+  border-bottom: 2px solid rgb(27, 96, 96);
+  border-bottom-style: groove;
 }
 
 .quote-container {
-  border: 2px solid navy;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -194,7 +209,6 @@ a {
 }
 
 .author-container {
-  border: 1px solid green;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -203,15 +217,13 @@ a {
 #author {
   font-size: 24px;
   font-weight: 600;
-  flex-shrink: 10;
-  margin-left: 470px;
+  margin-left: 280px;
 }
 
 /************************** CALL TO ACTION SECTION ******************/
 
 .sign-up-container {
-  border: 2px solid indianred;
-  background-color: white;
+  background: linear-gradient(to right, rgb(14, 14, 246),rgb(236, 163, 5));
   height: 370px;
   display: flex;
   justify-content: center;
@@ -219,42 +231,44 @@ a {
 }
 
 .sign-up-border {
-  background-color: #3882F6;
+  background-color: #9d8eeb;
+  border: 2px solid black;
   width: 1030px;
-  height: 160px;
+  min-height: 160px;
   border-radius: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 150px;
+  gap: 100px;
   margin-left: 5px;
   margin-right: 5px;
 }
 
 .sign-up-left {
-  border: 1px solid red;
   margin-left: 5px;
 }
 
 .heading {
-  color: #F9FAF8;
+  color: black;
   font-size: 24px;
   margin-bottom: 3px;
 }
 
 .description-text {
-  color: #E5E7EB;
+  color: black;
   font-size: 18px;
+  width: 500px;
 }
 
 .button-right {
   font-size: 18px;
-  height: 37px;
+  height: 40px;
   width: 125px;
   border-radius: 7px;
-  border: 2px solid white;
+  border: 1px solid rgb(9, 8, 8);
   color: #F9FAF8;
-  background-color: #3882F6;
+  background-color: #6739e6;
   flex-shrink: 0;
   margin-right: 5px;
 }
@@ -267,12 +281,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(to right, rgb(73, 23, 154), rgb(105, 105, 235));
+  border-top: 2px solid rgb(34, 47, 146);
+  border-top-style: groove;
 }
 
 .footer {
-  border: 1px solid cyan;
   font-size: 18px;
-  color: #E5E7EB;
+  color: black;
   flex-shrink: 0;
 }
 
