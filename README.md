@@ -16,4 +16,4 @@ content image 3:  Nick Morrison
 content image 4:  Pixabay
                   https://pixabay.com/
 
-Landing Project is one of the Odin Project exercises. In this repository on the main branch I created first version of the landing project by following step by step design that was assigned. Second version was created on second branch where I add my own personal customizations and design.
+Landing Project is one of the Odin Project exercises. In this repository on the main I created first version of the landing project by following step by step design that was assigned. Second version was created on second branch where I add my own personal customizations and design then was merged into the main.
