@@ -220,11 +220,11 @@ button:hover { /* Shows a background color of a button while hovering over it */
   margin-left: 280px;
 }
 
-/************************** CALL TO ACTION SECTION ******************/
+/************************** NEWSLETTER ******************/
 
 .sign-up-container {
   background: linear-gradient(to right, rgb(14, 14, 246),rgb(236, 163, 5));
-  height: 370px;
+  min-height: 370px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -233,20 +233,14 @@ button:hover { /* Shows a background color of a button while hovering over it */
 .sign-up-border {
   background-color: #9d8eeb;
   border: 2px solid black;
-  width: 1030px;
+  width: 1000px;
   min-height: 160px;
   border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 100px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.sign-up-left {
-  margin-left: 5px;
+  gap: 80px;
 }
 
 .heading {
@@ -269,8 +263,7 @@ button:hover { /* Shows a background color of a button while hovering over it */
   border: 1px solid rgb(9, 8, 8);
   color: #F9FAF8;
   background-color: #6739e6;
-  flex-shrink: 0;
-  margin-right: 5px;
+  margin: 10px;
 }
 
 /****************** FOOTER ******************/
